@@ -1,3 +1,4 @@
+"use strict";
 
 function cubeNumber(number) {
 	if (typeof number != "number") {
@@ -64,18 +65,18 @@ function findAddress(obj) {
 
 	return result.join(',');
 }
-console.log(findAddress({
-	street: 10,
-	house: "15A",
-	society: "Earth Perfect"
-}));
-console.log(findAddress({
-	street: 10,
-	society: "Earth Perfect"
-}));
-console.log(findAddress({
-	street: 10,
-}));
+// console.log(findAddress({
+// 	street: 10,
+// 	house: "15A",
+// 	society: "Earth Perfect"
+// }));
+// console.log(findAddress({
+// 	street: 10,
+// 	society: "Earth Perfect"
+// }));
+// console.log(findAddress({
+// 	street: 10,
+// }));
 
 function canPay(changeArray, totalDue) {
 	if (changeArray.length === 0) {
